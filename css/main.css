@@ -1,0 +1,65 @@
+video {
+  margin: 0;
+  display: block;
+  height: 30%;
+ }
+p{
+  width: 86%;
+  margin: 0 auto;
+  letter-spacing: 0.08rem;
+  padding-top: 10px;
+  font-family: 'Poiret One', cursive;
+  font-weight: 800;
+ }
+@media screen and (min-width: 768px){
+     body{
+        width: 70%;
+        margin: 0 auto;
+    }
+    p {
+        margin: auto 0;
+        width: 100%;
+        line-height: 1.5rem;
+        }
+}
+/* change of skin of the controls */
+
+.mejs__time-rail{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mejs__controls{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mejs__duration, .mejs__time-rail, .mejs__currenttime, .mejs__play, .mejs__playpause-button, button,
+.mejs__volume-button, .mejs__fullscreen-button, .mejs__time{
+    background: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
