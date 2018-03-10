@@ -34,8 +34,8 @@ p{
     padding-left: 0;
     padding-right: 0;
 }
-.mejs__duration, .mejs__time-rail, .mejs__currenttime, .mejs__play, .mejs__playpause-button, button,
-.mejs__volume-button, .mejs__fullscreen-button, .mejs__time{
+.mejs__duration, .mejs__time-rail, .mejs__currenttime, .mejs__play, .mejs__playpause-button,
+.mejs__volume-button, .mejs__fullscreen-button, .mejs__time,.mejs__button{
     background: darkgrey;
 }
 

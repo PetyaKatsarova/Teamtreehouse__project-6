@@ -1,3 +1,10 @@
+// Mediaelementplayer features: 
+
+$('video').mediaelementplayer({
+    features: ['playpause', 'current' , 'progress' , 'duration', 'volume', 'fullscreen', 'skipback'],
+    skipBackInterval: 5
+  });
+
 // parts of the text will highlight when pronounced on the audio
 
 const video = document.querySelector('video');
